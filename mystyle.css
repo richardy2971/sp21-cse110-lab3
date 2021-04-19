@@ -6,8 +6,9 @@ body {
     color: #FFF; /* Edited header */
     margin-left: 5px;
     padding: top;
+    text-align: center;
   }
-  h2 {
+  h2,h3 {
       text-decoration: rgb(100,100,100); /* Days to Gray */
       margin-top: 3cm;
       padding: right;
@@ -18,17 +19,54 @@ body {
       padding: left;
 
   }
- body {
+ section {
      margin-bottom: 2vh;
+     border-bottom:seashell;
+     padding:bottom;
  }
 
-.block, video {
-    border: 3ex hsl(100,200,30);
-    padding: .5Q;
+
+
+.box{ /* Create Box */
+    border-radius: 20px;
+    border-color: hsl(30,20,30);
+    border-width: 3mm;
+    border-radius: 1mm;
 
 }
-summary{
-    border-radius: 3px;
-    padding-top: 5mm;
-    text-align: justify;
+
+h1{
+    border-top: 2px dotted rebeccapurple;
+    border-bottom: 1em double lightskyblue;
 }
+video{
+    margin:auto
+}
+
+.square {
+    border:5px solid darkblue;
+    height:10%;
+    width: 5%;
+}
+summary{
+    position:relative;
+    left: 40px;
+}
+button:hover{ /*change hover color */
+    color:limegreen;
+}
+button:active{ /*when clicked turns red */
+    color:Red;
+}
+
+#day1{
+    text-shadow:violet;
+}
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+@media only screen and (max-width: 800px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

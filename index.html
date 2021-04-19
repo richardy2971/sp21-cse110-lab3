@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang= en-US>
     <head>
+        <style>
+            p {color: white;}
+
+            p.ex1 {display: none;}
+            p.ex2 {display: inline;}
+        </style>
+        <style>
+        div{
+    border: 2px black;
+    background-color: lightskyblue;
+    padding-top:60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    max-width:fit-content;
+    max-height:fit-content;
+    position:static;
+
+
+
+}</style>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="mystyle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +32,7 @@
         <title>Days in the Life</title>
     </head>
         <body>
-        <strong><em>Richard Yang Presents:</em></strong>
+        <p class="fun"><strong><em>Richard Yang Presents:</em></strong></p>
         <hr>
         <br>
 
@@ -23,7 +44,9 @@
 
 
         <main>
+        <div class = "box"></div>   
         <h1><i>DAYS IN THE LIFE OF RICHARD YANG</i></h1>
+        <div>By Richard Yang</div>
         <nav>
             <a href="file:///Users/richard/Lab2/index.html#Day1">Day 1</a> |
             <a href="file:///Users/richard/Lab2/index.html#Day2">Day 2</a> |
@@ -52,10 +75,13 @@
             <li>So many vegetables</li>
             <li>Maybe cup ramen</li>
         </ul>
+        <div class="square">
         <h4>Thoughts on Food:</h4>
-        <p>I really be eating healthy every single day. Although my own cooking skills are slowly decreasing
-            now that I'm home and not cooking.
-        </p>
+    </div>
+        
+        <div>I really be eating <p class="ex2">healthy</p> every single day. Although my own cooking skills are slowly decreasing
+            now that I'm home and not cooking<p class="ex1">Healthy</p>.
+        </div>
         </section>
 
         <section>
@@ -96,6 +122,7 @@
      
      
        </form>
+       <button type="button">SUBMIT</button>
        <footer>THANKS MTV FOR COMING </footer>
      
        </body>

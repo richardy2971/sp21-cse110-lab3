@@ -70,3 +70,14 @@ button:active{ /*when clicked turns red */
       width: 100%;
     }
   }
+  a[href*=".png"]{
+      padding: 10px;
+  }
+ 
+  ul li{
+      color:red;
+  }
+  ol > li{
+      font-style: italic;
+  }
+  
